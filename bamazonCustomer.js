@@ -62,8 +62,7 @@ function whatToBuy() {
             if(valid){
                 return true;
             }
-                return 
-                console.log("Please enter a valid product ID")
+                return "Please enter a valid product ID"
         }
     },{
         name: "Quantity",
