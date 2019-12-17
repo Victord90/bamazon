@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
     
     user: "root",
 
-    password: "Slickvic!90",
+    password: "",
     database: "bamazon_db"
 });
 
@@ -39,7 +39,7 @@ function displayItems() {
                 choices: ["Yes","No"]
             }
         ]).then(function(answer) {
-            console.log(answer)
+            //console.log(answer)
             if (answer.fistQ === "Yes"){
             whatToBuy();
         } else if (answer.fistQ === "No"){
