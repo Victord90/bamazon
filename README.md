@@ -17,6 +17,9 @@ Once installed open your terminal and see the magic!
 - After that just follow the steps and enjoy bamazon!!
 
 
+## GIF 
+![bamazonGIF](videos/screen-capture.gif?raw=true "bamazon")
+
 
 ## Technologies
 

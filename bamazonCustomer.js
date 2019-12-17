@@ -58,7 +58,7 @@ function whatToBuy() {
         name: "selectItem",
         message: "Please enter the ID of the product you would like to purchase",
         validate: function(value) {
-            let valid = value.match(/^[1-10]+$/)
+            let valid = value.match(/^[1-9]+$/)
             if(valid){
                 return true;
             }
